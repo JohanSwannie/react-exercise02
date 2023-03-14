@@ -25,18 +25,24 @@ form {
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3.5rem;
 }
 
 button {
+  background-color: #3f45e1;
+  color: #FFF;
+  font-weight: bold;
   width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
 }
 
+button:hover {
+  background-color:  #820505;
+}
+
 button.selected {
-  background-color: #060bb0;
-  color: #fff;
-  font-weight: bold;
+  background-color: #820505;
 }
 
 ul {
