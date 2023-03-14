@@ -59,9 +59,7 @@ li {
 
 .table-container {
   width: 100%;
-  overflow-x: auto;
   overflow-y: auto;
-  overflow: scroll;
   padding-top: 2.3rem;
 }
 
