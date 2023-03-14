@@ -25,8 +25,8 @@ function App() {
   return (
     <div className="App">
       <ButtonControl reqType={reqType} setReqType={setReqType} />
-      <List items={items} />
-      <Table items={items} />
+      <List items={items} reqType={reqType} />
+      <Table items={items} reqType={reqType} />
     </div>
   );
 }
