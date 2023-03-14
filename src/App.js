@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ButtonControl from "./ButtonControl";
 import List from "./List";
-// import Table from "./Table";
+import Table from "./Table";
 
 function App() {
   const API_URL = "https://jsonplaceholder.typicode.com/";
@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <ButtonControl reqType={reqType} setReqType={setReqType} />
       <List items={items} />
-      {/* <Table items={items} /> */}
+      <Table items={items} />
     </div>
   );
 }
