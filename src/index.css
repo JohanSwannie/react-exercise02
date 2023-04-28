@@ -60,7 +60,7 @@ li {
 
 .table-container {
   display: grid;
-  width: 90vw;
+  width: 100%;
   margin: auto;
   overflow-y: auto;
   padding-top: 2.3rem;
@@ -74,6 +74,6 @@ li {
 
 td {
   border: 2.5px solid #000;
-  padding: 0.25rem;
+  padding: 1rem .2rem;
   background-color: rgb(195, 210, 231);
 }
