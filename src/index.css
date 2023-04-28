@@ -23,22 +23,21 @@ form {
 .buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 22rem;
+  grid-gap: 14rem;
   width: 80vw;
   margin: auto;
 }
 
 button {
-  background-color: #3f45e1;
+  background-color: #050a93;
   color: #FFF;
   font-weight: bold;
-  width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
 }
 
 button.selected {
-  background-color: #820505;
+  background-color: #600404;
 }
 
 ul {
