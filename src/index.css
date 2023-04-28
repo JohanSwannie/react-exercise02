@@ -41,7 +41,7 @@ button.selected {
 }
 
 ul {
-  padding: 4rem 2rem 1rem;
+  padding: 4rem 8rem 1rem;
 }
 
 ul p {
@@ -53,13 +53,15 @@ ul p {
 li {
   list-style: none;
   background-color: #abaef5;
-  padding: .75rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   border: 2px solid rebeccapurple;
 }
 
 .table-container {
-  width: 100%;
+  display: grid;
+  width: 90vw;
+  margin: auto;
   overflow-y: auto;
   padding-top: 2.3rem;
 }
