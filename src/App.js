@@ -3,7 +3,7 @@ import ButtonControl from "./ButtonControl";
 import List from "./List";
 import Table from "./Table";
 
-function App() {
+const App = () => {
   const API_URL = "https://jsonplaceholder.typicode.com/";
   const [reqType, setReqType] = useState("comments");
   const [items, setItems] = useState([]);
@@ -29,6 +29,6 @@ function App() {
       <Table items={items} reqType={reqType} />
     </div>
   );
-}
+};
 
 export default App;
