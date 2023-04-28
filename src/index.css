@@ -23,7 +23,9 @@ form {
 .buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 4rem;
+  grid-gap: 22rem;
+  width: 80vw;
+  margin: auto;
 }
 
 button {
